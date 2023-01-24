@@ -10,7 +10,7 @@ li{
 /* bannar style */
 .banner{
     background: url(../img/banner.png);
-padding: 100px 204px;
+    padding: 100px 204px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
