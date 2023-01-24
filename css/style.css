@@ -22,17 +22,14 @@ a {
     background-size: cover;
     margin-bottom: 120px;
 }
-
 /* leagl styls  */
 .leagl {
     margin-bottom: 120px;
 }
-
 /* questions styls  */
 .questions {
     margin-bottom: 120px;
 }
-
 /* our-clint styls  */
 .our-clint {
     margin-bottom: 120px;
@@ -47,8 +44,7 @@ a {
 }
 
 /* responsive start */
-
-/* sm device */
+/* small devices responsive start */
 @media screen and (max-width:576px) {
     li {
         display: block;
@@ -91,7 +87,10 @@ a {
     .contact{
         margin-bottom: 50px;
     }
+    .margin{
+        margin-top: 30px;
+    }
 }
 
-/* md device */
+/* medium devices responsive start */
 @media screen and (min-width:577px) and (max-width:992px) {}
