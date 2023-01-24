@@ -24,7 +24,7 @@ a {
 }
 
 .modal1 {
-	margin-left: 104px;
+    margin-left: 153px;
 }
 /* leagl styls  */
 .leagl {
@@ -93,6 +93,9 @@ a {
     }
     .margin{
         margin-top: 30px;
+    }
+    .modal1 {
+        margin-left: 28px;
     }
 }
 
