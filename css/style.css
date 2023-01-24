@@ -20,6 +20,10 @@ li{
 .leagl{
     margin-bottom: 120px;
 }
+/* questions styls  */
+.questions{
+    margin-bottom: 120px;
+}
 /* our-clint styls  */
 .our-clint {
 margin-bottom: 120px;
@@ -30,6 +34,16 @@ margin-bottom: 120px;
     li{
         display: block;
     }
+    .banner{
+        padding: 30px;
+        background-size: 800px ;
+        background-position: center;
+        margin-bottom: 50px;
+    }
+    .bannerer-bottom input{
+margin-bottom: 10px;
+    }
+    
 }
 /* lg  */
 @media screen and (min-width:577px) and (max-width:992px){
