@@ -16,6 +16,14 @@ li{
     background-size: cover;
     margin-bottom: 120px;
 }
+/* leagl styls  */
+.leagl{
+    margin-bottom: 120px;
+}
+/* our-clint styls  */
+.our-clint {
+margin-bottom: 120px;
+}
 /* responsive start */
 /* sm  */
 @media screen and (max-width:576px) {
