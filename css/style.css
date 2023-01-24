@@ -8,7 +8,14 @@ li{
 }
 /* common css end  */
 /* bannar style */
-
+.banner{
+    background: url(../img/banner.png);
+padding: 100px 204px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+}
 /* responsive start */
 /* sm  */
 @media screen and (max-width:576px) {
