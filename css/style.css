@@ -1,14 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-li{
+
+li {
     list-style: none;
     display: inline-block;
 }
+
+a {
+    text-decoration: none;
+}
+
 /* common css end  */
 /* bannar style */
-.banner{
+.banner {
     background: url(../img/banner.png);
     padding: 100px 204px;
     background-position: center;
@@ -16,36 +22,76 @@ li{
     background-size: cover;
     margin-bottom: 120px;
 }
+
 /* leagl styls  */
-.leagl{
+.leagl {
     margin-bottom: 120px;
 }
+
 /* questions styls  */
-.questions{
+.questions {
     margin-bottom: 120px;
 }
+
 /* our-clint styls  */
 .our-clint {
-margin-bottom: 120px;
+    margin-bottom: 120px;
 }
+/* contact styls */
+.contact{
+    margin-bottom: 120px;
+}
+.contact .btn{
+    margin: 0 auto ;
+    width: 100%;
+}
+
 /* responsive start */
-/* sm  */
+
+/* sm device */
 @media screen and (max-width:576px) {
-    li{
+    li {
         display: block;
     }
-    .banner{
+
+    .banner {
         padding: 30px;
-        background-size: 800px ;
+        background-size: 800px;
         background-position: center;
         margin-bottom: 50px;
     }
-    .bannerer-bottom input{
-margin-bottom: 10px;
-    }
-    
-}
-/* lg  */
-@media screen and (min-width:577px) and (max-width:992px){
 
+    .leagl {
+        margin-bottom: 50px;
+    }
+
+    .bannerer-bottom input {
+        margin-bottom: 10px;
+    }
+
+    .our-clint-slider .carousel-caption h5 {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .questions {
+        margin-bottom: 50px;
+    }
+
+    .our-clint {
+        margin-bottom: 50px;
+    }
+
+    .question-img {
+        margin-top: 30px;
+    }
+    .leagl-item-box{
+        border: 1px solid gainsboro;
+    }
+    .contact{
+        margin-bottom: 50px;
+    }
 }
+
+/* md device */
+@media screen and (min-width:577px) and (max-width:992px) {}

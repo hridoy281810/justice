@@ -1,299 +1,431 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Justice</title>
-    <link rel="stylesheet" href="css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css"> 
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Justice</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-  <body>
-<header class="container">
-  <div class="">
-    <nav class="nav-bar row  py-3 justify-content-between align-items-center">
-  
-      <div class="col-sm-2 col-lg-3 col-md-3">
-        <img src="img/logo2.png" alt="">
-    </div>
-    <div class="col-sm-2 col-lg-6 col-md-6">
-        <ul class="text-light-emphasis ">
+
+<body>
+  <header class="container">
+    <div class="">
+      <nav class="nav-bar row  py-3 justify-content-between align-items-center">
+
+        <div class="col-sm-2 col-lg-3 col-md-3">
+          <img src="img/logo2.png" alt="">
+        </div>
+        <div class="col-sm-2 col-lg-6 col-md-6">
+          <ul class="text-light-emphasis ">
             <li class="me-3">Home</li>
-            <li class="me-3">Services  <i class="fa-solid fa-chevron-right"></i>  </li>
-            <li class="me-3">Cases  <i class="fa-solid fa-chevron-right"></i>  </li>
-            <li class="me-3">Blog  <i class="fa-solid fa-chevron-right"></i>  </li>
-            <li class="me-3">Contact Us  <i class="fa-solid fa-chevron-right"></i>  </li>
-        </ul>
+            <li class="me-3">Services <i class="fa-solid fa-chevron-right"></i> </li>
+            <li class="me-3">Cases <i class="fa-solid fa-chevron-right"></i> </li>
+            <li class="me-3">Blog <i class="fa-solid fa-chevron-right"></i> </li>
+            <li class="me-3">Contact Us <i class="fa-solid fa-chevron-right"></i> </li>
+          </ul>
+        </div>
+        <div class=" col-lg-3 col-md-3">
+          <!-- <button class="btn px-29 py-18 bg-warning text-light">Free Consultation</button> -->
+          <!-- Modal -->
+          <!-- Button trigger modal -->
+          <button type="button" class="btn bg-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Free Consultation
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  viya kete den
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
-    <div class=" col-lg-3 col-md-3">
-<!-- <button class="btn px-29 py-18 bg-warning text-light">Free Consultation</button> -->
-<!-- Modal -->
-</div>
-   
-    </nav>
-  </div>
+
     <div class="banner text-center">
-        <h1 class="fs-1 fw-bold text-white">We Provide Effective <br> Legal Solutions</h1>
-        <p class="text-light">There are many variations of passages of Lorem  Ipsum available, <br> but the majority have suffered alteration in some form, <br> by injected humour.</p>
-        <form class="bannerer-bottom">
-          <input class="px-3 py-1 " type="text" name="Search your services" id="" placeholder="Search your services">
-          <button class="btn px-3 py-2 mb-2 bg-warning text-light">Search</button>
-        </form>
+      <h1 class="fs-1 fw-bold text-white">We Provide Effective <br> Legal Solutions</h1>
+      <p class="text-light">There are many variations of passages of Lorem Ipsum available, <br> but the majority have
+        suffered alteration in some form, <br> by injected humour.</p>
+      <form class="bannerer-bottom">
+        <input class="px-3 py-1 " type="text" name="Search your services" id="" placeholder="Search your services">
+        <button class="btn px-3 py-2 mb-2 bg-warning text-light">Search</button>
+      </form>
     </div>
-</header>
-<main class="container">
+  </header>
+  <main class="container">
     <!-- The Legal Practice Area start  -->
-  <div class="leagl">
-    <h1 class="fs-3 text text-black text-center fw-bolder">The Legal Practice Area</h1>
- <p class="text-body text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>  
- <div class="row g-0 leagl-item-container ">
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="leagl-item-box px-5 py-5 border-bottom">
-      <img src="img/business.png" class="mx-auto d-block" alt="img">
-      <p class="text-black text-center my-3 fs-4 fw-semibold">Business Law</p>
-      <p class="text-center">There are many variations  <br> of passages of Lorem Ipsum <br> available, but the majority  have <br> suffered alteration <br> in some form, by injected humour.</p>
-      <div class="d-flex justify-content-center ">
-        <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis  "></i>
+    <div class="leagl">
+      <h1 class="fs-3 text text-black text-center fw-bolder">The Legal Practice Area</h1>
+      <p class="text-body text-center">There are many variations of passages of Lorem Ipsum available, but the majority
+        have <br> suffered alteration in some form, by injected humour.</p>
+      <div class="row g-0 leagl-item-container ">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="leagl-item-box px-5 py-5 border-bottom">
+            <img src="img/business.png" class="mx-auto d-block" alt="img">
+            <p class="text-black text-center my-3 fs-4 fw-semibold">Business Law</p>
+            <p class="text-center">There are many variations <br> of passages of Lorem Ipsum <br> available, but the
+              majority have <br> suffered alteration <br> in some form, by injected humour.</p>
+            <div class="d-flex justify-content-center ">
+              <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis  "></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="leagl-item-box px-5 py-5 border bg-secondary-subtle">
+            <img src="img/criminal.png" class="mx-auto d-block" alt="img">
+            <p class="text-black text-center my-3 fs-4 fw-semibold">Criminal Law</p>
+            <p class="text-center">There are many variations <br> of passages of Lorem Ipsum <br> available, but the
+              majority have <br> suffered alteration <br> in some form, by injected humour.</p>
+            <div class="d-flex justify-content-center ">
+              <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis text-center "></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="leagl-item-box px-5 py-5  border-bottom">
+            <img src="img/child.png" class="mx-auto d-block" alt="img">
+            <p class="text-black text-center my-3 fs-4 fw-semibold">Child Support</p>
+            <p class="text-center">There are many variations <br> of passages of Lorem Ipsum <br> available, but the
+              majority have <br> suffered alteration <br> in some form, by injected humour.</p>
+            <div class="d-flex justify-content-center ">
+              <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis text-center "></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="leagl-item-box px-5 py-5 border-end ">
+            <img src="img/education.png" class="mx-auto d-block" alt="img">
+            <p class="text-black text-center my-3 fs-4 fw-semibold">Education Law</p>
+            <p class="text-center">There are many variations <br> of passages of Lorem Ipsum <br> available, but the
+              majority have <br> suffered alteration <br> in some form, by injected humour.</p>
+            <div class="d-flex justify-content-center ">
+              <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis  "></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="leagl-item-box px-5 py-5  it border-top  border-end border-start">
+            <img src="img/divorce.png" class="mx-auto d-block" alt="img">
+            <p class="text-black text-center my-3 fs-4 fw-semibold">Divorce Law</p>
+            <p class="text-center">There are many variations <br> of passages of Lorem Ipsum <br> available, but the
+              majority have <br> suffered alteration <br> in some form, by injected humour.</p>
+            <div class="d-flex justify-content-center ">
+              <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis text-center "></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="leagl-item-box px-5 py-5 ">
+            <img src="img/tax.png" class="mx-auto d-block" alt="img">
+            <p class="text-black text-center my-3 fs-4 fw-semibold">Tax Law</p>
+            <p class="text-center">There are many variations <br> of passages of Lorem Ipsum <br> available, but the
+              majority have <br> suffered alteration <br> in some form, by injected humour.</p>
+            <div class="d-flex justify-content-center ">
+              <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis text-center "></i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="leagl-item-box px-5 py-5 border bg-secondary-subtle">
-      <img src="img/criminal.png" class="mx-auto d-block" alt="img">
-      <p class="text-black text-center my-3 fs-4 fw-semibold">Criminal Law</p>
-      <p class="text-center">There are many variations  <br> of passages of Lorem Ipsum <br> available, but the majority  have <br> suffered alteration <br> in some form, by injected humour.</p>
-      <div  class="d-flex justify-content-center ">
-        <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis text-center "></i>
-      </div>
-    </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="leagl-item-box px-5 py-5  border-bottom">
-      <img src="img/child.png" class="mx-auto d-block" alt="img">
-      <p class="text-black text-center my-3 fs-4 fw-semibold">Child Support</p>
-      <p class="text-center">There are many variations  <br> of passages of Lorem Ipsum <br> available, but the majority  have <br> suffered alteration <br> in some form, by injected humour.</p>
-      <div  class="d-flex justify-content-center ">
-        <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis text-center "></i>
-      </div>
-    </div>
-    </div>
-  <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="leagl-item-box px-5 py-5 border-end ">
-      <img src="img/education.png" class="mx-auto d-block" alt="img">
-      <p class="text-black text-center my-3 fs-4 fw-semibold">Education Law</p>
-      <p class="text-center">There are many variations  <br> of passages of Lorem Ipsum <br> available, but the majority  have <br> suffered alteration <br> in some form, by injected humour.</p>
-      <div class="d-flex justify-content-center ">
-        <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis  "></i>
-      </div>
-    </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="leagl-item-box px-5 py-5  it border-top  border-end border-start">
-      <img src="img/divorce.png" class="mx-auto d-block" alt="img">
-      <p class="text-black text-center my-3 fs-4 fw-semibold">Divorce Law</p>
-      <p class="text-center">There are many variations  <br> of passages of Lorem Ipsum <br> available, but the majority  have <br> suffered alteration <br> in some form, by injected humour.</p>
-      <div  class="d-flex justify-content-center ">
-        <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis text-center "></i>
-      </div>
-    </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-    <div class="leagl-item-box px-5 py-5 ">
-      <img src="img/tax.png" class="mx-auto d-block" alt="img">
-      <p class="text-black text-center my-3 fs-4 fw-semibold">Tax Law</p>
-      <p class="text-center">There are many variations  <br> of passages of Lorem Ipsum <br> available, but the majority  have <br> suffered alteration <br> in some form, by injected humour.</p>
-      <div  class="d-flex justify-content-center ">
-        <i class="fa-solid fa-circle-right fs-3 text-warning-emphasis text-center "></i>
-      </div>
-    </div>
-    </div>
-  </div>
-  </div>
     <!-- The Legal Practice Area end  -->
     <!-- What Our Client Say  start -->
     <div class="our-clint">
       <h1 class="fs-3 text text-black text-center fw-bolder">What Our Client Say</h1>
-   <p class="text-body text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
-    <div class="our-clint-slider">
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <p class="text-body text-center">There are many variations of passages of Lorem Ipsum available, but the majority
+        have <br> suffered alteration in some form, by injected humour.</p>
+      <div class="our-clint-slider">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/banner.png" class="d-block w-100 img-fluid" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <img src="img/Ellipse 1.png" alt="">
+                <h5 class="text-white fs-4 text fw-bolder mt-3">Awlad Hossain</h5>
+                <p class="text-light semibold ">UIX Designer</p>
+                <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                  piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                  Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                  consectetur.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/Rectangle 5.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <img src="img/Ellipse 1.png" alt="">
+                <h5 class="text-white fs-4 text fw-bolder mt-3">Awlad Hossain</h5>
+                <p class="text-light semibold ">UIX Designer</p>
+                <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                  piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                  Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                  consectetur.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/Rectangle 5.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <div>
+                  <img src="img/Ellipse 1.png" alt="">
+                  <h5 class="text-white fs-4 text fw-bolder mt-3">Awlad Hossain</h5>
+                  <p class="text-light semibold ">UIX Designer</p>
+                  <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                    piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                    Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
+                    words, consectetur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/banner.png" class="d-block w-100 img-fluid" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <img src="img/Ellipse 1.png" class="" alt="">
-              <h5 class="text-white fs-4 text fw-bolder mt-3">Awlad Hossain</h5>
-              <p class="text-light semibold ">UIX Designer</p>
-              <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/Rectangle 5.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <img src="img/Ellipse 1.png" class="" alt="">
-              <h5 class="text-white fs-4 text fw-bolder mt-3">Awlad Hossain</h5>
-              <p class="text-light semibold ">UIX Designer</p>
-              <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/Rectangle 5.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <img src="img/Ellipse 1.png" class="" alt="">
-              <h5 class="text-white fs-4 text fw-bolder mt-3">Awlad Hossain</h5>
-              <p class="text-light semibold ">UIX Designer</p>
-              <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-      </div>
-      </div>
+    </div>
     <!-- What Our Client Say  end -->
     <!-- Frequently Asked Any Questions start -->
     <div class="questions">
       <h1 class="fs-3 text text-black text-center fw-bolder">Frequently Asked Any Questions</h1>
-   <p class="text-body text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
-   <div class="questions-container ">
-   <div class="row">
- <div class="col-lg-6 col-sm-12 col-md-12 ">
-  <div class="question-accordion">
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            1.What is the difference between flex box and grid?
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>The difference between flex box and grid is.</strong> Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+      <p class="text-body text-center">There are many variations of passages of Lorem Ipsum available, but the majority
+        have <br> suffered alteration in some form, by injected humour.</p>
+      <div class="questions-container ">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 col-md-12 ">
+            <div class="question-accordion">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      1.What is the difference between flex box and grid?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>The difference between flex box and grid is.</strong> Grid and flexbox. The basic
+                      difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout
+                      in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows,
+                      and columns at the same time.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      2.What is media query used for?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Media Query is used</strong> Media queries are a key part of responsive web design, as
+                      they allow you to create different layouts depending on the size of the viewport, but they can
+                      also be used to detect other things about the environment your site is running on, for example
+                      whether the user is using a touchscreen rather than a mouse.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      3.What is the box model in CSS and how does it work?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> A box in CSS consists of a content area,
+                      which is where any text, images, or other HTML elements are displayed. This is optionally
+                      surrounded by padding, a border, and a margin, on one or more sides. The box model describes how
+                      these elements work together to create a box as displayed by CSS.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFoure">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFoure" aria-expanded="false" aria-controls="collapseFoure">
+                      4.What are semantic tags and what are they used for?
+                    </button>
+                  </h2>
+                  <div id="collapseFoure" class="accordion-collapse collapse" aria-labelledby="headingFoure"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Semantic tags is.</strong> The semantic HTML tags help the search engines and other user
+                      devices to determine the importance and context of web pages. The pages made with semantic
+                      elements are much easier to read. It has greater accessibility. It offers a better user
+                      experience.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-           2.What is media query used for?
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>Media Query is used</strong> Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            3.What is the box model in CSS and how does it work?
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingFoure">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFoure" aria-expanded="false" aria-controls="collapseFoure">
-            4.What are semantic tags and what are they used for?  
-          </button>
-        </h2>
-        <div id="collapseFoure" class="accordion-collapse collapse" aria-labelledby="headingFoure" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>Semantic tags is.</strong> The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages. The pages made with semantic elements are much easier to read. It has greater accessibility. It offers a better user experience.
+          <div class="col-lg-6 col-sm-12 col-md-12">
+            <div class="question-img">
+              <img src="img/faq.png" class="img-fluid" alt="">
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
- </div>
- <div class="col-lg-6 col-sm-12 col-md-12">
-    <div class="question-img">
-      <img src="img/faq.png" class="img-fluid" alt="">
-    </div>
-    </div>
-   </div>
-   </div>
-    </div>
-  <!-- Frequently Asked Any Questions end -->
-
-</main>
-
+    <!-- Frequently Asked Any Questions end -->
+    <!-- Contact With Us section start  -->
+    <div class="contact">
+      <div class="container">
+        <h1 class="fs-3 text text-black text-center fw-bolder">Contact With Us</h1>
+        <p class="text-body text-center">There are many variations of passages of Lorem Ipsum available, but the
+          majority
+          have <br> suffered alteration in some form, by injected humour.</p>
+        <div class="row mt-5">
+          <div class="col-sm-12 col-md-12 col-lg-6 g-0 ">
+            <div class="row g-0">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="leagl-item-box px-5 py-5 border-bottom border-end ">
+                  <img src="img/address.png" class="mx-auto d-block" alt="img">
+                  <p class="text-black text-center my-3 fs-4 fw-semibold">Address</p>
+                  <p class="text-center">A108 Adam Street,<br>
+                    New York, NY 535022</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="leagl-item-box px-5 py-5 ">
+                  <img src="img/call.png" class="mx-auto d-block" alt="img">
+                  <p class="text-black text-center my-3 fs-4 fw-semibold">Call Us</p>
+                  <p class="text-center">+88 01750 00 00 00<br>
+                    +88 01750 00 00 00</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="leagl-item-box px-5 py-5 border-end border-top">
+                  <img src="img/email.png" class="mx-auto d-block" alt="img">
+                  <p class="text-black text-center my-3 fs-4 fw-semibold">Email Us</p>
+                  <p class="text-center">info@gmail.com<br>
+                    info@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="leagl-item-box px-5 py-5 border-top border-start">
+                  <img src="img/time.png" class="mx-auto d-block" alt="img">
+                  <p class="text-black text-center my-3 fs-4 fw-semibold">Working Hours</p>
+                  <p class="text-center">Mon-Fri: 9AM to 5PM <br>
+                    Sunday: 9AM to 1 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="col-12">
+              <input class="form-control form-control-lg mb-4" type="text" placeholder="Your Name" aria-label="Your Name">
+              <input class="form-control form-control-lg mb-4" type="text" placeholder="Your Email" aria-label="Your Email">
+              <input class="form-control form-control-lg mb-4" type="text" placeholder="Subject" aria-label="Subject">
+              <textarea class="form-control pb-5" id="exampleFormControlTextarea1" placeholder="Your Message" rows="9"></textarea>
+            </div>
+              <button type="button" class="btn btn-warning w-100 mt-4">Warning</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Contact With Us section end  -->
+  </main>
   <!-- Footer section start -->
-<footer class="bg-black">
-<div class="container">
-<div class="text-center text-lg-start  text-muted p-4">
-
-  <section>
-    <div class="container text-center text-md-start mt-5">
-      <div class="row mt-3 text-white">
-        <div class="col-sm-12 col-md-3 col-lg-4  mx-auto mb-4">
-         <img src="img/logo.png" class="mb-4" alt="">
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
-          </p>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            Usefull Link
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Homes</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">About Us</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Cases</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Blog</a>
-            <a href="#!" class="text-reset">Contact Us</a>
-          </p>
-        </div>
-        <div class="col-md-4 col-lg-3 col-sm-6 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">Contact Now</h6>
-          <p>555 4th 5t NW, Washington
-            DC 20530, United States</p>
-          <p>
-            +88 01750 000 000
-            +88 01750 000 000
-          </p>
-          <p>info@gmail.com <br>
-            info@gmail.com</p> 
-        </div>
-        <div class="col-md-4 col-lg-3 col-sm-6 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">Subscribe</h6>
-          <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
-          <div class="input-group">
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Email Address">
-            <btn class="input-group-text"><i class="fa-solid  fs-2 fa-paper-plane px-4 "></i></span>
+  <footer class="bg-black">
+    <div class="container">
+      <div class="text-center text-lg-start  text-muted p-4">
+        <section>
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3 text-white">
+              <div class="col-sm-12 col-md-3 col-lg-4  mx-auto mb-4">
+                <img src="img/logo.png" class="mb-4" alt="">
+                <p>
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                  alteration in some form, by injected humour.
+                </p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Usefull Link
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Homes</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">About Us</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Cases</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Blog</a>
+                  <a href="#!" class="text-reset">Contact Us</a>
+                </p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-sm-6 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Contact Now</h6>
+                <p>555 4th 5t NW, Washington
+                  DC 20530, United States</p>
+                <p>
+                  +88 01750 000 000
+                  +88 01750 000 000
+                </p>
+                <p>info@gmail.com <br>
+                  info@gmail.com</p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-sm-6 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Subscribe</h6>
+                <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                <div class="input-group">
+                  <input type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-lg" placeholder="Email Address">
+                  <btn class="input-group-text"><i class="fa-solid  fs-2 fa-paper-plane px-4 "></i></span>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</footer>
-</div>
-</footer>
+        </section>
+  </footer>
+  </div>
+  </footer>
   <!-- Footer section end-->
   <!-- bootstrap JS  -->
   <script src="js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
