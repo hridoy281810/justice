@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+/* common css end  */
+/* bannar style */
+
+/* responsive start */
+/* sm  */
+@media screen and (max-width:576px) {
+    li{
+        display: block;
+    }
+}
+/* lg  */
+@media screen and (min-width:577px) and (max-width:992px){
+
+}
